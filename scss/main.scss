@@ -1,0 +1,9 @@
+@charset "UTF-8";
+@import '_variable.scss';
+
+// bootstrap
+@import '../../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss';
+@import "../../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins";
+@import "../../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/grid";
+
+@import 'components/_components.scss';

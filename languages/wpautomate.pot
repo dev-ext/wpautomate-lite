@@ -1,0 +1,679 @@
+# Copyright (C) 2016 wpautomate
+# This file is distributed under the same license as the wpautomate package.
+msgid ""
+msgstr ""
+"Project-Id-Version: wpautomate\n"
+"Report-Msgid-Bugs-To: 0effortthemes.com/support\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: 0effortTheme <0effortthmes@itobuz.com>\n"
+"Language-Team: 0effortTheme <0effortthmes@itobuz.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n\n"
+
+#: wp-content/themes/wpautomate/404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: wp-content/themes/wpautomate/404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: wp-content/themes/wpautomate/404.php:35
+msgid "Most Used Categories"
+msgstr ""
+
+#: wp-content/themes/wpautomate/404.php:51
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:99
+msgid "Global"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:107, wp-content/themes/wpautomate/admin/options-init.php:442, wp-content/themes/wpautomate/admin/options-init.php:660, wp-content/themes/wpautomate/admin/options-init.php:757, wp-content/themes/wpautomate/admin/options-init.php:837, wp-content/themes/wpautomate/admin/options-init.php:860, wp-content/themes/wpautomate/admin/options-init.php:895, wp-content/themes/wpautomate/admin/options-init.php:1071, wp-content/themes/wpautomate/admin/options-init.php:1322, wp-content/themes/wpautomate/admin/options-init.php:1489
+msgid "General"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:114
+msgid "Grid Width"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:124
+msgid "Button style"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:140
+msgid "Background settings."
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:145
+msgid "Body Background"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:150
+msgid "Icon."
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:156, wp-content/themes/wpautomate/admin/options-init.php:163
+msgid "Favicon"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:157
+msgid "favicon.ico 32x32 pixels"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:164
+msgid "apple-touch-icon.png 180x180 pixels"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:172, wp-content/themes/wpautomate/admin/options-init.php:180
+msgid "Logo"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:186, wp-content/themes/wpautomate/admin/options-init.php:192
+msgid "Retina Logo"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:197
+msgid "Text Logo"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:207, wp-content/themes/wpautomate/admin/options-init.php:635, wp-content/themes/wpautomate/admin/options-init.php:792
+msgid "Advanced"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:214
+msgid "Disable PostType"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:226
+msgid "Disable Function"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:236
+msgid "Slider"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:241
+msgid "Static Css"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:251
+msgid "Optimization"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:258
+msgid "Optimize Stylesheet"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:264
+msgid "Optimize Javascript"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:272
+msgid "RTL"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:279
+msgid "Enable RTL support for Theme"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:285
+msgid "Enable RTL support For editor"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:295
+msgid "Header & subheader"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:303, wp-content/themes/wpautomate/admin/options-init.php:1109
+msgid "Header"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:310
+msgid "Layout style"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:326, wp-content/themes/wpautomate/admin/options-init.php:391
+msgid "Background"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:331
+msgid "Sticky"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:336, wp-content/themes/wpautomate/admin/options-init.php:356, wp-content/themes/wpautomate/admin/options-init.php:625, wp-content/themes/wpautomate/admin/options-init.php:778
+msgid "Style"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:349
+msgid "Subheader"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:365
+msgid "Disable"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:376, wp-content/themes/wpautomate/admin/options-init.php:406
+msgid "Title tag"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:399, wp-content/themes/wpautomate/admin/options-init.php:640, wp-content/themes/wpautomate/admin/options-init.php:1138
+msgid "Menu"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:418, wp-content/themes/wpautomate/admin/options-init.php:590
+msgid "Options"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:434, wp-content/themes/wpautomate/admin/options-init.php:645, wp-content/themes/wpautomate/functions.php:115
+msgid "Sidebar"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:449
+msgid "Sidebars"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:454
+msgid "Custom sidebar list"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:459, wp-content/themes/wpautomate/admin/options-init.php:478, wp-content/themes/wpautomate/admin/options-init.php:513, wp-content/themes/wpautomate/admin/options-init.php:566, wp-content/themes/wpautomate/admin/options-init.php:769
+msgid "Layout"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:464
+msgid "Sidebar width"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:473
+msgid "Page sidebar"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:501, wp-content/themes/wpautomate/admin/options-init.php:536
+msgid "Force sidebar"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:502, wp-content/themes/wpautomate/admin/options-init.php:537
+msgid "Force sidebar for all pages"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:508
+msgid "Post sidebar"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:547
+msgid "Post Type"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:554, wp-content/themes/wpautomate/admin/options-init.php:1505
+msgid "Blog"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:561
+msgid "List page"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:585
+msgid "Excerpt length"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:601
+msgid "Single Post"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:606, wp-content/themes/wpautomate/admin/options-init.php:715
+msgid "Title"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:607
+msgid "Show Post title"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:613
+msgid "Author box"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:614
+msgid "Show Author box"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:620
+msgid "Related post length"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:653
+msgid "Pages"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:667
+msgid "Page comments"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:678
+msgid "Error 404"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:686
+msgid "Page background"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:691
+msgid "Error page text"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:702, wp-content/themes/wpautomate/admin/options-init.php:709
+msgid "Under construction"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:720
+msgid "Text"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:726, wp-content/themes/wpautomate/admin/options-init.php:741
+msgid "Launch Date"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:731
+msgid "Contact form Shortcode"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:736
+msgid "Custom Page"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:750, wp-content/themes/wpautomate/admin/options-init.php:1279
+msgid "Footer"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:764
+msgid "Footer Layout"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:787
+msgid "Footer Background"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:797
+msgid "Copyright Text"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:802
+msgid "Copyright bar style"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:811
+msgid "Extra"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:816
+msgid "Back to top"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:830
+msgid "Responsive"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:844
+msgid "Mobile Logo"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:845
+msgid "Optional"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:853
+msgid "Seo"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:867
+msgid "Add Analytics"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:875
+msgid "Analytics position in page"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:876
+msgid "Should be before end of body tag for better page speed."
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:888
+msgid "Social"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:902
+msgid "Open links in new tab"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:909
+msgid "Skype"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:915
+msgid "Twitter"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:921
+msgid "Facebook"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:927
+msgid "Google Plus"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:933
+msgid "Vimeo"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:939
+msgid "Youtube"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:945
+msgid "Flicker"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:951
+msgid "Linkedin"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:957
+msgid "Pinterest"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:963
+msgid "Dribble"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:969
+msgid "Behence"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:975
+msgid "Tumblr"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:981
+msgid "VKontakte"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:987
+msgid "Viadeo"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:993
+msgid "Xing"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:998
+msgid "Hide RSS"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1007
+msgid "Addons & plugins"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1014, wp-content/themes/wpautomate/admin/options-init.php:1049
+msgid "Addons"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1021
+msgid "Paralax and scroll"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1026
+msgid "Nice Scroll"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1032
+msgid "Scroll speed"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1033
+msgid "Default 40"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1038
+msgid "Enllax"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1044
+msgid "Light Box"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1054
+msgid "Retina Js"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1064
+msgid "Colors"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1079
+msgid "Choose one of the predefined styles. Important: color option can be used only with custom skin."
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1084
+msgid "Theme skin"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1186
+msgid "Content"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1304
+msgid "Shortcodes"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1315
+msgid "Fonts"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1334
+msgid "Body font"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1338
+msgid "Theme default text for content."
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1346
+msgid "Headings"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1350
+msgid "Fonts for heading"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1360
+msgid "Theme fonts 1"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1373
+msgid "Theme fonts 2"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1386
+msgid "Theme fonts 3"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1404
+msgid "Heading 1"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1417
+msgid "Heading 2"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1429
+msgid "Heading 3"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1441
+msgid "Heading 4"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1453
+msgid "Heading 5"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1465
+msgid "Heading 6"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1482
+msgid "Translate"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1496
+msgid "Enabel Translate"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1497
+msgid "If you want more complex translatation turn it off."
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1516
+msgid "Error & Search"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1528
+msgid "Custom code"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1535
+msgid "Css"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1542
+msgid "Custom CSS Code"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1543
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1554
+msgid "Js"
+msgstr ""
+
+#: wp-content/themes/wpautomate/admin/options-init.php:1561
+msgid "Custom JS Code"
+msgstr ""
+
+#: wp-content/themes/wpautomate/comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-content/themes/wpautomate/comments.php:40, wp-content/themes/wpautomate/comments.php:61
+msgid "Comment navigation"
+msgstr ""
+
+#: wp-content/themes/wpautomate/comments.php:43, wp-content/themes/wpautomate/comments.php:64
+msgid "Older Comments"
+msgstr ""
+
+#: wp-content/themes/wpautomate/comments.php:44, wp-content/themes/wpautomate/comments.php:65
+msgid "Newer Comments"
+msgstr ""
+
+#: wp-content/themes/wpautomate/comments.php:77
+msgid "Comments are closed."
+msgstr ""
+
+#: wp-content/themes/wpautomate/footer.php:18
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: wp-content/themes/wpautomate/footer.php:18
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: wp-content/themes/wpautomate/footer.php:20
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: wp-content/themes/wpautomate/functions.php:58
+msgid "Primary Menu"
+msgstr ""
+
+#: wp-content/themes/wpautomate/header.php:34
+msgid "Skip to content"
+msgstr ""
+
+#: wp-content/themes/wpautomate/inc/template-tags.php:28
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: wp-content/themes/wpautomate/inc/template-tags.php:33
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: wp-content/themes/wpautomate/inc/template-tags.php:50, wp-content/themes/wpautomate/inc/template-tags.php:56
+msgid ", "
+msgstr ""
+
+#: wp-content/themes/wpautomate/inc/template-tags.php:52
+msgid "Posted in %1$s"
+msgstr ""
+
+#: wp-content/themes/wpautomate/inc/template-tags.php:58
+msgid "Tagged %1$s"
+msgstr ""
+
+#: wp-content/themes/wpautomate/inc/template-tags.php:64
+msgid "Leave a comment"
+msgstr ""
+
+#: wp-content/themes/wpautomate/inc/template-tags.php:64
+msgid "1 Comment"
+msgstr ""
+
+#: wp-content/themes/wpautomate/inc/template-tags.php:64
+msgid "% Comments"
+msgstr ""
+
+#: wp-content/themes/wpautomate/inc/template-tags.php:71, wp-content/themes/wpautomate/template-parts/content-page.php:32
+msgid "Edit %s"
+msgstr ""
+
+#: wp-content/themes/wpautomate/search.php:18
+msgid "Search Results for: %s"
+msgstr ""
+
+#: wp-content/themes/wpautomate/template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: wp-content/themes/wpautomate/template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: wp-content/themes/wpautomate/template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: wp-content/themes/wpautomate/template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: wp-content/themes/wpautomate/template-parts/content-page.php:21, wp-content/themes/wpautomate/template-parts/content-single.php:25, wp-content/themes/wpautomate/template-parts/content.php:47
+msgid "Pages:"
+msgstr ""
+
+#: wp-content/themes/wpautomate/template-parts/content.php:38
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""

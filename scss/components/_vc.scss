@@ -1,0 +1,49 @@
+.page-has-vc {
+	.vc_row {
+		@media (min-width: $screen-sm) {
+			max-width: 750px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		@media (min-width: $screen-md) {
+			max-width: 970px;
+		}
+		@media (min-width: $screen-lg) {
+			max-width: 1170px;
+		}
+		.vc_inner {
+			margin-left: -15px;
+			margin-right: -15px;
+		}
+		&[data-vc-full-width] {
+			max-width: 150%;
+			margin-left: -15px;
+			margin-right: -15px;
+			.vc_inner {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	}
+
+	.center-column-12 {
+		@media (min-width: $screen-sm) {
+			float: none;
+			max-width: 750px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		@media (min-width: $screen-md) {
+			max-width: 970px;
+		}
+		@media (min-width: $screen-lg) {
+			max-width: 1170px;
+		}
+	}
+
+.entry-header,
+.entry-footer {
+	@extend .container;
+}
+
+}
