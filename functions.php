@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package wpautomate
+ * @package Wpautomate
  */
 
 // get theme opt function for redux options panel

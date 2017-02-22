@@ -2,7 +2,7 @@
 /**
  * wpautomate Theme Customizer.
  *
- * @package wpautomate
+ * @package Wpautomate
  */
 
 /**

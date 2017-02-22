@@ -4,7 +4,7 @@
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
- * @package wpautomate
+ * @package Wpautomate
  */
 
 if ( ! function_exists( 'wpautomate_posted_on' ) ) :

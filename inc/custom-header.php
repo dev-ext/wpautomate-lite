@@ -13,7 +13,7 @@
  *
  * @link http://codex.wordpress.org/Custom_Headers
  *
- * @package wpautomate
+ * @package Wpautomate
  */
 
 /**
