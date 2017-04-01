@@ -7,12 +7,14 @@
  * @package Wpautomate
  */
 $wpautomate_post_type = get_post_type();
+$wpautomate_post_wrapper = $wpautomate_post_type . '--single';
+
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<section id="post-<?php the_ID(); ?>" <?php post_class($wpautomate_post_wrapper); ?>>
 	<header class="<?php echo esc_attr( $wpautomate_post_type );?>--entry-header entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<?php the_title( '<h1 class="entry-single-title">', '</h1>' ); ?>
 
 		<div class="entry-meta">
 			<?php wpautomate_posted_on(); ?>

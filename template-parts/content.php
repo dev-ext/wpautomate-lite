@@ -8,9 +8,10 @@
  */
 
 $wpautomate_post_type = get_post_type();
+$wpautomate_post_wrapper = $wpautomate_post_type . '--list';
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article id="<?php the_ID(); ?>" <?php post_class($wpautomate_post_wrapper); ?>>
 	<header class="<?php echo esc_attr( $wpautomate_post_type );?>--entry-header entry-header">
 		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 
@@ -22,7 +23,10 @@ $wpautomate_post_type = get_post_type();
 	</header><!-- .entry-header -->
 
 	<div class="<?php echo esc_attr( $wpautomate_post_type );?>--entry-content entry-content row">
-		<?php if (has_post_thumbnail()) :
+		<?php
+		 $wpautomate_loop_content_class = 'col-md-12';
+		if (has_post_thumbnail()) :
+			$wpautomate_loop_content_class = 'col-md-9';
 			$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id() );
 			$tonesque = new Tonesque( $large_image_url[0] );
 			$color = $tonesque->color();
@@ -32,7 +36,7 @@ $wpautomate_post_type = get_post_type();
 				 the_post_thumbnail('thumbnail'); ?>
 			</div>
 		<?php endif; ?>
-		<div class="col-md-9">
+		<div class="<?php echo esc_attr($wpautomate_loop_content_class); ?>">
 				<?php
 			the_excerpt( sprintf(
 				/* translators: %s: Name of current post. */
