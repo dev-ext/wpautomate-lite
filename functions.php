@@ -136,14 +136,12 @@ function wpautomate_scripts() {
 
 	// styles enqueue
 	wp_register_style( 'wpautomate-style', get_stylesheet_uri() );
-	wp_register_style( 'wpautomate-vendor', get_template_directory_uri() . '/css/vendor.css', array(), 'v1' );
 	wp_register_style( 'wpautomate-main', get_template_directory_uri() . '/css/main.css', array(), 'v1' );
 	wp_register_style( 'wpautomate-custom', get_template_directory_uri() . '/css/custom.css', array(), 'v1' );
 
 	// Optimize Stylesheet
 	// Check gulp task how to optimize stylesheet
 	// gulp buildstyles will optimize your stylesheet
-	wp_register_style( 'wpautomate-vendor-min', get_template_directory_uri() . '/css/vendor.min.css', array(), 'v1' );
 	wp_register_style( 'wpautomate-main-min', get_template_directory_uri() . '/css/main.min.css', array(), 'v1' );
 
 	// enqueue stylesheet

@@ -1,9 +1,13 @@
 @charset "UTF-8";
 @import '_variable.scss';
 
-// bootstrap
-@import '../../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss';
-@import "../../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins";
-@import "../../../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/grid";
+// Bower Packages
+@import '_bootstrap.scss';
 
+
+
+// global components
 @import 'components/_components.scss';
+
+// Modules
+@import 'post-types/_post-types.scss';
