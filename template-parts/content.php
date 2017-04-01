@@ -7,27 +7,28 @@
  * @package Wpautomate
  */
 
+$wpautomate_post_type = get_post_type();
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
+	<header class="<?php echo esc_attr( $wpautomate_post_type );?>--entry-header entry-header">
 		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 
 		<?php if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
+		<div class="<?php echo esc_attr( $wpautomate_post_type );?>--entry-meta entry-meta">
 			<?php wpautomate_posted_on(); ?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
-	
-	<div class="entry-content row">
-		<?php if (has_post_thumbnail()) : 
+
+	<div class="<?php echo esc_attr( $wpautomate_post_type );?>--entry-content entry-content row">
+		<?php if (has_post_thumbnail()) :
 			$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id() );
 			$tonesque = new Tonesque( $large_image_url[0] );
-			$color = $tonesque->color();			
+			$color = $tonesque->color();
 		 ?>
 			<div class="col-md-3" style="background-color: #<?php echo $color; ?>" >
-				<?php 
+				<?php
 				 the_post_thumbnail('thumbnail'); ?>
 			</div>
 		<?php endif; ?>
@@ -40,7 +41,7 @@
 			) );
 		?>
 		</div>
-	
+
 
 		<?php
 			wp_link_pages( array(
@@ -50,7 +51,7 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
+	<footer class="<?php echo esc_attr( $wpautomate_post_type );?>--entry-footer entry-footer">
 		<?php wpautomate_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
