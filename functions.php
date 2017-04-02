@@ -117,8 +117,8 @@ function wpautomate_widgets_init() {
 		'description'   => '',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h5 class="widget--title">',
+		'after_title'   => '</h5>',
 	) );
 }
 add_action( 'widgets_init', 'wpautomate_widgets_init' );
