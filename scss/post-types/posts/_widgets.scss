@@ -1,3 +1,11 @@
+.widget-area {
+	margin-top: 20px;
+
+	@media (min-width: $screen-md) {
+		margin-top: 0;
+	}
+}
+
 .search-form {
 	background: #ddd;
 	padding: 10px;

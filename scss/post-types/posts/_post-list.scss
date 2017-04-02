@@ -18,3 +18,29 @@
 		margin-bottom: 20px;
 	}
 }
+
+.nav-links {
+	display: flex;
+	.nav-previous {
+		flex-grow: 1;
+	}
+}
+
+.entry-footer {
+	.tags-links,
+	.cat-links {
+		display: block;
+	}
+	a {
+		color: #666;
+		&:hover {
+			color: #222;
+		}
+	}
+
+	.edit-link {
+		margin-top: 15px;
+		@extend .btn;
+		@extend .btn-default;
+	}
+}
