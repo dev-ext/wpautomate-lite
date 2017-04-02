@@ -1,1 +1,6 @@
-
+img {
+	max-width: 100%;
+}
+table {
+	@extend .table;
+}
