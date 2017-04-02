@@ -161,6 +161,8 @@ function wpautomate_scripts() {
 	wp_register_script( 'wpautomate-vendorscript', get_template_directory_uri() . '/js/vendor/bootstrap.js', array( 'jquery' ), 'v1', true );
 	wp_register_script( 'wpautomate-mainscript', get_template_directory_uri() . '/js/main.js', array(), 'v1', true );
 
+
+  // live reload scripts only for frontend developer auto reload
   if(live_reload) {
   	wp_register_script( 'livereload', 'http://127.0.0.1:35729/livereload.js', array(), 'v1', true );
   }
@@ -187,6 +189,10 @@ function wpautomate_scripts() {
 		wp_enqueue_script( 'wpautomate-mainscript' );
 
 	}
+
+	// live reload scripts only for frontend developer auto reload
+	// need to define in wp-config.php
+	// live_reload = true
 	if(live_reload) {
 		wp_enqueue_script( 'livereload');
 	}

@@ -31,9 +31,10 @@ $wpautomate_post_wrapper = $wpautomate_post_type . '--list';
 			$tonesque = new Tonesque( $large_image_url[0] );
 			$color = $tonesque->color();
 		 ?>
-			<div class="col-md-3" style="background-color: #<?php echo $color; ?>" >
-				<?php
-				 the_post_thumbnail('thumbnail'); ?>
+			<div class="col-md-3">
+				<div class="<?php echo esc_attr( $wpautomate_post_type );?>--image" style="background-color: #<?php echo $color; ?>">
+					<?php the_post_thumbnail('thumbnail'); ?>
+				</div>
 			</div>
 		<?php endif; ?>
 		<div class="<?php echo esc_attr($wpautomate_loop_content_class); ?>">
