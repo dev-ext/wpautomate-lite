@@ -20,7 +20,7 @@ get_header();
 // Grab the metadata from the database
 $prefix = '_page_';
 $hide_sidebar = get_post_meta( get_the_ID(), $prefix . 'hide_sidebar', true );
-$primary_grid_class =  $hide_sidebar ? 'col-md-12' :  'col-md-8';
+$primary_grid_class =  $hide_sidebar ? 'col-md-12 col-xs-12' :  'col-md-8 col-xs-12';
 $sidebar_position = get_post_meta( get_the_ID(), $prefix . 'sidebar_position', true );
 $sidebar_position_class = '';
 if ($sidebar_position === 'right') { $sidebar_position_class = 'sidebar-position-right'; }
