@@ -1,0 +1,34 @@
+.comment-form {
+	textarea,
+	input[type='text'],
+	input[type='email'],
+	input[type='url'] {
+		@extend .form-control;
+	}
+	.submit {
+		margin-top: 15px;
+		@extend .btn;
+		@extend .btn-primary;
+	}
+}
+
+// comment list
+.comment-list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+
+	.comment-body {
+		padding: 15px 0;
+		border-top: 1px solid #ddd;
+	}
+
+	ol.children {
+		list-style: none;
+	}
+
+	.comment-reply-link {
+		@extend .btn;
+		@extend .btn-default;
+	}
+}

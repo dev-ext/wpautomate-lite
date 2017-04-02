@@ -1,0 +1,29 @@
+.search-form {
+	background: #ddd;
+	padding: 10px;
+	display: flex;
+
+	label {
+		flex-grow: 1;
+		margin-bottom: 0;
+	}
+
+	input[type='search'] {
+		@extend .form-control;
+	}
+	input[type='submit'] {
+		@extend .btn;
+		@extend .btn-primary;
+	}
+}
+
+.widget {
+
+	& + .widget {
+		margin-top: 20px;
+	}
+
+	&--title {
+		font-size: 20px;
+	}
+}
