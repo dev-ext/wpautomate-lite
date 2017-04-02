@@ -13,6 +13,11 @@ $wpautomate_post_wrapper = $wpautomate_post_type . '--single';
 ?>
 
 <section id="post-<?php the_ID(); ?>" <?php post_class($wpautomate_post_wrapper); ?>>
+	<?php if (has_post_thumbnail()) : ?>
+	<div class="<?php echo esc_attr($wpautomate_post_type); ?>--image">
+		<?php the_post_thumbnail('thumbnail'); ?>
+	</div>
+	<?php endif; ?>
 	<header class="<?php echo esc_attr( $wpautomate_post_type );?>--entry-header entry-header">
 		<?php the_title( '<h1 class="entry-single-title">', '</h1>' ); ?>
 
