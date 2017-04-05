@@ -129,7 +129,7 @@ add_action( 'widgets_init', 'wpautomate_widgets_init' );
 function wpautomate_scripts() {
 
 	// Google Font enqueue
-	$font_families="Open Sans:400italic,400,600,300,700|Roboto:400,100,,300,500,700,900";
+	$font_families="Open+Sans:400italic,400,600,300,700|Roboto:400,100,,300,500,700,900";
 	$query_args['family'] = esc_url_raw( urlencode( $font_families ));
 	$fonts_url = add_query_arg( $query_args, 'https://fonts.googleapis.com/css' );
 	wp_enqueue_style( 'wpautomate-theme-style-fonts',$fonts_url, array(), null );
