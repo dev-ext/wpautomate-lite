@@ -30,7 +30,7 @@
 
     $args = array(
         'opt_name' => 'theme_options',
-        'footer_credit'  => '0effortthemes Options panel v1',
+        'footer_credit'  => 'Wpautomate Options panel v1',
         'use_cdn' => false,
         'display_name' => 'Theme Options',
         'display_version' => '1.0.0',
@@ -256,13 +256,13 @@
              'id'       => 'opt-style-optimize',
              'type'     => 'switch',
              'title'    => __('Optimize Stylesheet', 'wpautomate'),
-             'default'  => true,
+             'default'  => false,
            ),
            array(
              'id'       => 'opt-js-optimize',
              'type'     => 'switch',
              'title'    => __('Optimize Javascript', 'wpautomate'),
-             'default'  => true,
+             'default'  => false,
            ),
         )
     ) );
