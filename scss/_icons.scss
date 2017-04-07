@@ -1,0 +1,1244 @@
+@font-face {
+	font-family: "Icons";
+	src: url('../fonts/Icons.eot');
+	src: url('../fonts/Icons.eot?#iefix') format('eot'),
+		url('../fonts/Icons.woff2') format('woff2'),
+		url('../fonts/Icons.woff') format('woff'),
+		url('../fonts/Icons.ttf') format('truetype'),
+		url('../fonts/Icons.svg#Icons') format('svg');
+}
+
+@mixin icon-styles {
+	font-family: "Icons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	// speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+	text-decoration: none;
+	text-transform: none;
+}
+
+%icon {
+	@include icon-styles;
+}
+
+@function icon-char($filename) {
+	$char: "";
+
+	@if $filename == 3d-design {
+		$char: "\E001";
+	}
+	@if $filename == add-anchor-point {
+		$char: "\E002";
+	}
+	@if $filename == add-arrow {
+		$char: "\E003";
+	}
+	@if $filename == add-text {
+		$char: "\E004";
+	}
+	@if $filename == agenda-with-bookmark {
+		$char: "\E005";
+	}
+	@if $filename == ai-file {
+		$char: "\E006";
+	}
+	@if $filename == align-center {
+		$char: "\E007";
+	}
+	@if $filename == align-to-left {
+		$char: "\E008";
+	}
+	@if $filename == align-to-right {
+		$char: "\E009";
+	}
+	@if $filename == align-tool {
+		$char: "\E00A";
+	}
+	@if $filename == align-top {
+		$char: "\E00B";
+	}
+	@if $filename == anchor-point {
+		$char: "\E00C";
+	}
+	@if $filename == arrow-and-a-dot {
+		$char: "\E00D";
+	}
+	@if $filename == artboard-with-paint {
+		$char: "\E00E";
+	}
+	@if $filename == artist-sketchbook {
+		$char: "\E00F";
+	}
+	@if $filename == attachment-clip {
+		$char: "\E010";
+	}
+	@if $filename == bend-tool {
+		$char: "\E011";
+	}
+	@if $filename == bended-arrow {
+		$char: "\E012";
+	}
+	@if $filename == blackboard-with-chalk {
+		$char: "\E013";
+	}
+	@if $filename == blank-sheet {
+		$char: "\E014";
+	}
+	@if $filename == break-apart {
+		$char: "\E015";
+	}
+	@if $filename == browser-grid {
+		$char: "\E016";
+	}
+	@if $filename == browser-window {
+		$char: "\E017";
+	}
+	@if $filename == brush-and-pencil {
+		$char: "\E018";
+	}
+	@if $filename == brush-stroke {
+		$char: "\E019";
+	}
+	@if $filename == butt-cap {
+		$char: "\E01A";
+	}
+	@if $filename == calligraphy-signature {
+		$char: "\E01B";
+	}
+	@if $filename == camera-shutter {
+		$char: "\E01C";
+	}
+	@if $filename == cancel-sticker {
+		$char: "\E01D";
+	}
+	@if $filename == capital-letters {
+		$char: "\E01E";
+	}
+	@if $filename == cd-record {
+		$char: "\E01F";
+	}
+	@if $filename == center-align {
+		$char: "\E020";
+	}
+	@if $filename == center-object {
+		$char: "\E021";
+	}
+	@if $filename == center-paragraph {
+		$char: "\E022";
+	}
+	@if $filename == circular-points {
+		$char: "\E023";
+	}
+	@if $filename == circular-ruler {
+		$char: "\E024";
+	}
+	@if $filename == cmyk-keys {
+		$char: "\E025";
+	}
+	@if $filename == color-dropper {
+		$char: "\E026";
+	}
+	@if $filename == color-samples {
+		$char: "\E027";
+	}
+	@if $filename == combine-squares {
+		$char: "\E028";
+	}
+	@if $filename == compass-for-drawing {
+		$char: "\E029";
+	}
+	@if $filename == convert-point-tool {
+		$char: "\E02A";
+	}
+	@if $filename == crop-tool {
+		$char: "\E02B";
+	}
+	@if $filename == cross-arrows {
+		$char: "\E02C";
+	}
+	@if $filename == cube-design {
+		$char: "\E02D";
+	}
+	@if $filename == cube-side {
+		$char: "\E02E";
+	}
+	@if $filename == cut-out {
+		$char: "\E02F";
+	}
+	@if $filename == dart-board {
+		$char: "\E030";
+	}
+	@if $filename == designing-tool {
+		$char: "\E031";
+	}
+	@if $filename == desktop-application {
+		$char: "\E032";
+	}
+	@if $filename == desktop-lamp-with-desk {
+		$char: "\E033";
+	}
+	@if $filename == different-shaped-buttons {
+		$char: "\E034";
+	}
+	@if $filename == digital-brush {
+		$char: "\E035";
+	}
+	@if $filename == dimensions {
+		$char: "\E036";
+	}
+	@if $filename == distribute-to-center {
+		$char: "\E037";
+	}
+	@if $filename == divide-tool {
+		$char: "\E038";
+	}
+	@if $filename == double-paper-clipbord {
+		$char: "\E039";
+	}
+	@if $filename == double-pencil {
+		$char: "\E03A";
+	}
+	@if $filename == drawing-crayon {
+		$char: "\E03B";
+	}
+	@if $filename == drop-with-shine {
+		$char: "\E03C";
+	}
+	@if $filename == duplicate-cursors {
+		$char: "\E03D";
+	}
+	@if $filename == electric-light {
+		$char: "\E03E";
+	}
+	@if $filename == empty-bucket {
+		$char: "\E03F";
+	}
+	@if $filename == empty-paper {
+		$char: "\E040";
+	}
+	@if $filename == envelope-with-paper {
+		$char: "\E041";
+	}
+	@if $filename == erase-lines {
+		$char: "\E042";
+	}
+	@if $filename == exclude-squares {
+		$char: "\E043";
+	}
+	@if $filename == expand-arrow {
+		$char: "\E044";
+	}
+	@if $filename == expand-document {
+		$char: "\E045";
+	}
+	@if $filename == expand-object {
+		$char: "\E046";
+	}
+	@if $filename == favourite-symbol {
+		$char: "\E047";
+	}
+	@if $filename == fi-file {
+		$char: "\E048";
+	}
+	@if $filename == fill-bucket {
+		$char: "\E049";
+	}
+	@if $filename == fit-hands {
+		$char: "\E04A";
+	}
+	@if $filename == five-fingers {
+		$char: "\E04B";
+	}
+	@if $filename == flip-object {
+		$char: "\E04C";
+	}
+	@if $filename == focus-square {
+		$char: "\E04D";
+	}
+	@if $filename == fonts-folder {
+		$char: "\E04E";
+	}
+	@if $filename == fw-button {
+		$char: "\E04F";
+	}
+	@if $filename == gel-tube {
+		$char: "\E050";
+	}
+	@if $filename == graphic-file {
+		$char: "\E051";
+	}
+	@if $filename == graphics-layouts {
+		$char: "\E052";
+	}
+	@if $filename == grid-layout {
+		$char: "\E053";
+	}
+	@if $filename == hand-over-tablet {
+		$char: "\E054";
+	}
+	@if $filename == hexagonal {
+		$char: "\E055";
+	}
+	@if $filename == horizontal-tablet-with-pen {
+		$char: "\E056";
+	}
+	@if $filename == ink-and-feather {
+		$char: "\E057";
+	}
+	@if $filename == internet-browser {
+		$char: "\E058";
+	}
+	@if $filename == intersect-desing {
+		$char: "\E059";
+	}
+	@if $filename == invert-tool {
+		$char: "\E05A";
+	}
+	@if $filename == join-files-button {
+		$char: "\E05B";
+	}
+	@if $filename == keyboard-with-wire {
+		$char: "\E05C";
+	}
+	@if $filename == laptop-with-arrow {
+		$char: "\E05D";
+	}
+	@if $filename == large-ruler {
+		$char: "\E05E";
+	}
+	@if $filename == lasso-tool {
+		$char: "\E05F";
+	}
+	@if $filename == left-alignment-paragraph {
+		$char: "\E060";
+	}
+	@if $filename == line-and-marker {
+		$char: "\E061";
+	}
+	@if $filename == line-swirl {
+		$char: "\E062";
+	}
+	@if $filename == liner-pencil {
+		$char: "\E063";
+	}
+	@if $filename == magic-wand {
+		$char: "\E064";
+	}
+	@if $filename == magnetism-pointing-down {
+		$char: "\E065";
+	}
+	@if $filename == main-file {
+		$char: "\E066";
+	}
+	@if $filename == man-studying {
+		$char: "\E067";
+	}
+	@if $filename == marker-point {
+		$char: "\E068";
+	}
+	@if $filename == menu-list {
+		$char: "\E069";
+	}
+	@if $filename == minus-element-back {
+		$char: "\E06A";
+	}
+	@if $filename == minus-element-front {
+		$char: "\E06B";
+	}
+	@if $filename == miter-join {
+		$char: "\E06C";
+	}
+	@if $filename == monitor-and-pen {
+		$char: "\E06D";
+	}
+	@if $filename == monitor-levels {
+		$char: "\E06E";
+	}
+	@if $filename == mouse-arrow {
+		$char: "\E06F";
+	}
+	@if $filename == mouse-clicker {
+		$char: "\E070";
+	}
+	@if $filename == move-folder {
+		$char: "\E071";
+	}
+	@if $filename == multiple-arrows {
+		$char: "\E072";
+	}
+	@if $filename == multiple-files {
+		$char: "\E073";
+	}
+	@if $filename == multiple-images {
+		$char: "\E074";
+	}
+	@if $filename == no-spray {
+		$char: "\E075";
+	}
+	@if $filename == notepad-and-pencil {
+		$char: "\E076";
+	}
+	@if $filename == office-clip {
+		$char: "\E077";
+	}
+	@if $filename == office-notepad {
+		$char: "\E078";
+	}
+	@if $filename == office-pin {
+		$char: "\E079";
+	}
+	@if $filename == open-paint-bucket {
+		$char: "\E07A";
+	}
+	@if $filename == open-round-scissors {
+		$char: "\E07B";
+	}
+	@if $filename == paint-brush-stroke {
+		$char: "\E07C";
+	}
+	@if $filename == paint-brush-tool {
+		$char: "\E07D";
+	}
+	@if $filename == paint-brush-with-drop {
+		$char: "\E07E";
+	}
+	@if $filename == paint-brush-with-drops {
+		$char: "\E07F";
+	}
+	@if $filename == paint-drops-on-rectangle {
+		$char: "\E080";
+	}
+	@if $filename == paint-spot {
+		$char: "\E081";
+	}
+	@if $filename == paint-tool {
+		$char: "\E082";
+	}
+	@if $filename == paint-tube-with-drop {
+		$char: "\E083";
+	}
+	@if $filename == painting-airbrush {
+		$char: "\E084";
+	}
+	@if $filename == paper-and-pen {
+		$char: "\E085";
+	}
+	@if $filename == paragraph-aligment {
+		$char: "\E086";
+	}
+	@if $filename == pattern-tool {
+		$char: "\E087";
+	}
+	@if $filename == pen-crop {
+		$char: "\E088";
+	}
+	@if $filename == pen-pencil-and-eraser {
+		$char: "\E089";
+	}
+	@if $filename == pen-point {
+		$char: "\E08A";
+	}
+	@if $filename == pencil-drawing {
+		$char: "\E08B";
+	}
+	@if $filename == pencil-with-eraser {
+		$char: "\E08C";
+	}
+	@if $filename == piece-of-paper-folded {
+		$char: "\E08D";
+	}
+	@if $filename == plastic-cutter {
+		$char: "\E08E";
+	}
+	@if $filename == plus-and-minus-square {
+		$char: "\E08F";
+	}
+	@if $filename == pointin-tool {
+		$char: "\E090";
+	}
+	@if $filename == printing-document {
+		$char: "\E091";
+	}
+	@if $filename == projecting-cap {
+		$char: "\E092";
+	}
+	@if $filename == ps-file {
+		$char: "\E093";
+	}
+	@if $filename == puzzle-piece {
+		$char: "\E094";
+	}
+	@if $filename == rectangle-ruler {
+		$char: "\E095";
+	}
+	@if $filename == remove-ancho-point {
+		$char: "\E096";
+	}
+	@if $filename == resize-text {
+		$char: "\E097";
+	}
+	@if $filename == responsive-devices {
+		$char: "\E098";
+	}
+	@if $filename == right-paragraph {
+		$char: "\E099";
+	}
+	@if $filename == rotate-left {
+		$char: "\E09A";
+	}
+	@if $filename == round-cap {
+		$char: "\E09B";
+	}
+	@if $filename == round-join {
+		$char: "\E09C";
+	}
+	@if $filename == round-symbol {
+		$char: "\E09D";
+	}
+	@if $filename == rubber-eraser {
+		$char: "\E09E";
+	}
+	@if $filename == ruler-and-pen {
+		$char: "\E09F";
+	}
+	@if $filename == ruler-and-pencil {
+		$char: "\E0A0";
+	}
+	@if $filename == ruler-and-set-square {
+		$char: "\E0A1";
+	}
+	@if $filename == sample-color {
+		$char: "\E0A2";
+	}
+	@if $filename == scale-squares {
+		$char: "\E0A3";
+	}
+	@if $filename == school-pen {
+		$char: "\E0A4";
+	}
+	@if $filename == school-writing-tool {
+		$char: "\E0A5";
+	}
+	@if $filename == select-tool {
+		$char: "\E0A6";
+	}
+	@if $filename == sharpener {
+		$char: "\E0A7";
+	}
+	@if $filename == slice-tool {
+		$char: "\E0A8";
+	}
+	@if $filename == smartphone-tablet-and-television {
+		$char: "\E0A9";
+	}
+	@if $filename == spatula {
+		$char: "\E0AA";
+	}
+	@if $filename == spray-can {
+		$char: "\E0AB";
+	}
+	@if $filename == square-composition {
+		$char: "\E0AC";
+	}
+	@if $filename == square-image {
+		$char: "\E0AD";
+	}
+	@if $filename == square-pattern {
+		$char: "\E0AE";
+	}
+	@if $filename == square-window {
+		$char: "\E0AF";
+	}
+	@if $filename == strikethrough-text {
+		$char: "\E0B0";
+	}
+	@if $filename == strip-mark {
+		$char: "\E0B1";
+	}
+	@if $filename == surgeon-scalpel {
+		$char: "\E0B2";
+	}
+	@if $filename == sync-symbol {
+		$char: "\E0B3";
+	}
+	@if $filename == target-in-page {
+		$char: "\E0B4";
+	}
+	@if $filename == text-font {
+		$char: "\E0B5";
+	}
+	@if $filename == text-tool-1 {
+		$char: "\E0B6";
+	}
+	@if $filename == text-tool-2 {
+		$char: "\E0B7";
+	}
+	@if $filename == text-tool {
+		$char: "\E0B8";
+	}
+	@if $filename == three-brushes {
+		$char: "\E0B9";
+	}
+	@if $filename == three-rings {
+		$char: "\E0BA";
+	}
+	@if $filename == three-squares {
+		$char: "\E0BB";
+	}
+	@if $filename == triangle-and-circle {
+		$char: "\E0BC";
+	}
+	@if $filename == two-paint-brusher {
+		$char: "\E0BD";
+	}
+	@if $filename == unite-squares {
+		$char: "\E0BE";
+	}
+	@if $filename == university-building {
+		$char: "\E0BF";
+	}
+	@if $filename == user-profile-in-a-square {
+		$char: "\E0C0";
+	}
+	@if $filename == vector-software {
+		$char: "\E0C1";
+	}
+	@if $filename == vintage-color-palette {
+		$char: "\E0C2";
+	}
+	@if $filename == vintage-reading-glasses {
+		$char: "\E0C3";
+	}
+	@if $filename == visible-status {
+		$char: "\E0C4";
+	}
+	@if $filename == writing-feather {
+		$char: "\E0C5";
+	}
+	@if $filename == writing-text {
+		$char: "\E0C6";
+	}
+	@if $filename == zoom-len {
+		$char: "\E0C7";
+	}
+	@if $filename == zoom-out-magnifier {
+		$char: "\E0C8";
+	}
+
+	@return $char;
+}
+
+@mixin icon($filename, $insert: before, $extend: true) {
+	&:#{$insert} {
+		@if $extend {
+			@extend %icon;
+		} @else {
+			@include icon-styles;
+		}
+		content: icon-char($filename);
+	}
+}
+
+.icon-3d-design {
+	@include icon(3d-design);
+}
+.icon-add-anchor-point {
+	@include icon(add-anchor-point);
+}
+.icon-add-arrow {
+	@include icon(add-arrow);
+}
+.icon-add-text {
+	@include icon(add-text);
+}
+.icon-agenda-with-bookmark {
+	@include icon(agenda-with-bookmark);
+}
+.icon-ai-file {
+	@include icon(ai-file);
+}
+.icon-align-center {
+	@include icon(align-center);
+}
+.icon-align-to-left {
+	@include icon(align-to-left);
+}
+.icon-align-to-right {
+	@include icon(align-to-right);
+}
+.icon-align-tool {
+	@include icon(align-tool);
+}
+.icon-align-top {
+	@include icon(align-top);
+}
+.icon-anchor-point {
+	@include icon(anchor-point);
+}
+.icon-arrow-and-a-dot {
+	@include icon(arrow-and-a-dot);
+}
+.icon-artboard-with-paint {
+	@include icon(artboard-with-paint);
+}
+.icon-artist-sketchbook {
+	@include icon(artist-sketchbook);
+}
+.icon-attachment-clip {
+	@include icon(attachment-clip);
+}
+.icon-bend-tool {
+	@include icon(bend-tool);
+}
+.icon-bended-arrow {
+	@include icon(bended-arrow);
+}
+.icon-blackboard-with-chalk {
+	@include icon(blackboard-with-chalk);
+}
+.icon-blank-sheet {
+	@include icon(blank-sheet);
+}
+.icon-break-apart {
+	@include icon(break-apart);
+}
+.icon-browser-grid {
+	@include icon(browser-grid);
+}
+.icon-browser-window {
+	@include icon(browser-window);
+}
+.icon-brush-and-pencil {
+	@include icon(brush-and-pencil);
+}
+.icon-brush-stroke {
+	@include icon(brush-stroke);
+}
+.icon-butt-cap {
+	@include icon(butt-cap);
+}
+.icon-calligraphy-signature {
+	@include icon(calligraphy-signature);
+}
+.icon-camera-shutter {
+	@include icon(camera-shutter);
+}
+.icon-cancel-sticker {
+	@include icon(cancel-sticker);
+}
+.icon-capital-letters {
+	@include icon(capital-letters);
+}
+.icon-cd-record {
+	@include icon(cd-record);
+}
+.icon-center-align {
+	@include icon(center-align);
+}
+.icon-center-object {
+	@include icon(center-object);
+}
+.icon-center-paragraph {
+	@include icon(center-paragraph);
+}
+.icon-circular-points {
+	@include icon(circular-points);
+}
+.icon-circular-ruler {
+	@include icon(circular-ruler);
+}
+.icon-cmyk-keys {
+	@include icon(cmyk-keys);
+}
+.icon-color-dropper {
+	@include icon(color-dropper);
+}
+.icon-color-samples {
+	@include icon(color-samples);
+}
+.icon-combine-squares {
+	@include icon(combine-squares);
+}
+.icon-compass-for-drawing {
+	@include icon(compass-for-drawing);
+}
+.icon-convert-point-tool {
+	@include icon(convert-point-tool);
+}
+.icon-crop-tool {
+	@include icon(crop-tool);
+}
+.icon-cross-arrows {
+	@include icon(cross-arrows);
+}
+.icon-cube-design {
+	@include icon(cube-design);
+}
+.icon-cube-side {
+	@include icon(cube-side);
+}
+.icon-cut-out {
+	@include icon(cut-out);
+}
+.icon-dart-board {
+	@include icon(dart-board);
+}
+.icon-designing-tool {
+	@include icon(designing-tool);
+}
+.icon-desktop-application {
+	@include icon(desktop-application);
+}
+.icon-desktop-lamp-with-desk {
+	@include icon(desktop-lamp-with-desk);
+}
+.icon-different-shaped-buttons {
+	@include icon(different-shaped-buttons);
+}
+.icon-digital-brush {
+	@include icon(digital-brush);
+}
+.icon-dimensions {
+	@include icon(dimensions);
+}
+.icon-distribute-to-center {
+	@include icon(distribute-to-center);
+}
+.icon-divide-tool {
+	@include icon(divide-tool);
+}
+.icon-double-paper-clipbord {
+	@include icon(double-paper-clipbord);
+}
+.icon-double-pencil {
+	@include icon(double-pencil);
+}
+.icon-drawing-crayon {
+	@include icon(drawing-crayon);
+}
+.icon-drop-with-shine {
+	@include icon(drop-with-shine);
+}
+.icon-duplicate-cursors {
+	@include icon(duplicate-cursors);
+}
+.icon-electric-light {
+	@include icon(electric-light);
+}
+.icon-empty-bucket {
+	@include icon(empty-bucket);
+}
+.icon-empty-paper {
+	@include icon(empty-paper);
+}
+.icon-envelope-with-paper {
+	@include icon(envelope-with-paper);
+}
+.icon-erase-lines {
+	@include icon(erase-lines);
+}
+.icon-exclude-squares {
+	@include icon(exclude-squares);
+}
+.icon-expand-arrow {
+	@include icon(expand-arrow);
+}
+.icon-expand-document {
+	@include icon(expand-document);
+}
+.icon-expand-object {
+	@include icon(expand-object);
+}
+.icon-favourite-symbol {
+	@include icon(favourite-symbol);
+}
+.icon-fi-file {
+	@include icon(fi-file);
+}
+.icon-fill-bucket {
+	@include icon(fill-bucket);
+}
+.icon-fit-hands {
+	@include icon(fit-hands);
+}
+.icon-five-fingers {
+	@include icon(five-fingers);
+}
+.icon-flip-object {
+	@include icon(flip-object);
+}
+.icon-focus-square {
+	@include icon(focus-square);
+}
+.icon-fonts-folder {
+	@include icon(fonts-folder);
+}
+.icon-fw-button {
+	@include icon(fw-button);
+}
+.icon-gel-tube {
+	@include icon(gel-tube);
+}
+.icon-graphic-file {
+	@include icon(graphic-file);
+}
+.icon-graphics-layouts {
+	@include icon(graphics-layouts);
+}
+.icon-grid-layout {
+	@include icon(grid-layout);
+}
+.icon-hand-over-tablet {
+	@include icon(hand-over-tablet);
+}
+.icon-hexagonal {
+	@include icon(hexagonal);
+}
+.icon-horizontal-tablet-with-pen {
+	@include icon(horizontal-tablet-with-pen);
+}
+.icon-ink-and-feather {
+	@include icon(ink-and-feather);
+}
+.icon-internet-browser {
+	@include icon(internet-browser);
+}
+.icon-intersect-desing {
+	@include icon(intersect-desing);
+}
+.icon-invert-tool {
+	@include icon(invert-tool);
+}
+.icon-join-files-button {
+	@include icon(join-files-button);
+}
+.icon-keyboard-with-wire {
+	@include icon(keyboard-with-wire);
+}
+.icon-laptop-with-arrow {
+	@include icon(laptop-with-arrow);
+}
+.icon-large-ruler {
+	@include icon(large-ruler);
+}
+.icon-lasso-tool {
+	@include icon(lasso-tool);
+}
+.icon-left-alignment-paragraph {
+	@include icon(left-alignment-paragraph);
+}
+.icon-line-and-marker {
+	@include icon(line-and-marker);
+}
+.icon-line-swirl {
+	@include icon(line-swirl);
+}
+.icon-liner-pencil {
+	@include icon(liner-pencil);
+}
+.icon-magic-wand {
+	@include icon(magic-wand);
+}
+.icon-magnetism-pointing-down {
+	@include icon(magnetism-pointing-down);
+}
+.icon-main-file {
+	@include icon(main-file);
+}
+.icon-man-studying {
+	@include icon(man-studying);
+}
+.icon-marker-point {
+	@include icon(marker-point);
+}
+.icon-menu-list {
+	@include icon(menu-list);
+}
+.icon-minus-element-back {
+	@include icon(minus-element-back);
+}
+.icon-minus-element-front {
+	@include icon(minus-element-front);
+}
+.icon-miter-join {
+	@include icon(miter-join);
+}
+.icon-monitor-and-pen {
+	@include icon(monitor-and-pen);
+}
+.icon-monitor-levels {
+	@include icon(monitor-levels);
+}
+.icon-mouse-arrow {
+	@include icon(mouse-arrow);
+}
+.icon-mouse-clicker {
+	@include icon(mouse-clicker);
+}
+.icon-move-folder {
+	@include icon(move-folder);
+}
+.icon-multiple-arrows {
+	@include icon(multiple-arrows);
+}
+.icon-multiple-files {
+	@include icon(multiple-files);
+}
+.icon-multiple-images {
+	@include icon(multiple-images);
+}
+.icon-no-spray {
+	@include icon(no-spray);
+}
+.icon-notepad-and-pencil {
+	@include icon(notepad-and-pencil);
+}
+.icon-office-clip {
+	@include icon(office-clip);
+}
+.icon-office-notepad {
+	@include icon(office-notepad);
+}
+.icon-office-pin {
+	@include icon(office-pin);
+}
+.icon-open-paint-bucket {
+	@include icon(open-paint-bucket);
+}
+.icon-open-round-scissors {
+	@include icon(open-round-scissors);
+}
+.icon-paint-brush-stroke {
+	@include icon(paint-brush-stroke);
+}
+.icon-paint-brush-tool {
+	@include icon(paint-brush-tool);
+}
+.icon-paint-brush-with-drop {
+	@include icon(paint-brush-with-drop);
+}
+.icon-paint-brush-with-drops {
+	@include icon(paint-brush-with-drops);
+}
+.icon-paint-drops-on-rectangle {
+	@include icon(paint-drops-on-rectangle);
+}
+.icon-paint-spot {
+	@include icon(paint-spot);
+}
+.icon-paint-tool {
+	@include icon(paint-tool);
+}
+.icon-paint-tube-with-drop {
+	@include icon(paint-tube-with-drop);
+}
+.icon-painting-airbrush {
+	@include icon(painting-airbrush);
+}
+.icon-paper-and-pen {
+	@include icon(paper-and-pen);
+}
+.icon-paragraph-aligment {
+	@include icon(paragraph-aligment);
+}
+.icon-pattern-tool {
+	@include icon(pattern-tool);
+}
+.icon-pen-crop {
+	@include icon(pen-crop);
+}
+.icon-pen-pencil-and-eraser {
+	@include icon(pen-pencil-and-eraser);
+}
+.icon-pen-point {
+	@include icon(pen-point);
+}
+.icon-pencil-drawing {
+	@include icon(pencil-drawing);
+}
+.icon-pencil-with-eraser {
+	@include icon(pencil-with-eraser);
+}
+.icon-piece-of-paper-folded {
+	@include icon(piece-of-paper-folded);
+}
+.icon-plastic-cutter {
+	@include icon(plastic-cutter);
+}
+.icon-plus-and-minus-square {
+	@include icon(plus-and-minus-square);
+}
+.icon-pointin-tool {
+	@include icon(pointin-tool);
+}
+.icon-printing-document {
+	@include icon(printing-document);
+}
+.icon-projecting-cap {
+	@include icon(projecting-cap);
+}
+.icon-ps-file {
+	@include icon(ps-file);
+}
+.icon-puzzle-piece {
+	@include icon(puzzle-piece);
+}
+.icon-rectangle-ruler {
+	@include icon(rectangle-ruler);
+}
+.icon-remove-ancho-point {
+	@include icon(remove-ancho-point);
+}
+.icon-resize-text {
+	@include icon(resize-text);
+}
+.icon-responsive-devices {
+	@include icon(responsive-devices);
+}
+.icon-right-paragraph {
+	@include icon(right-paragraph);
+}
+.icon-rotate-left {
+	@include icon(rotate-left);
+}
+.icon-round-cap {
+	@include icon(round-cap);
+}
+.icon-round-join {
+	@include icon(round-join);
+}
+.icon-round-symbol {
+	@include icon(round-symbol);
+}
+.icon-rubber-eraser {
+	@include icon(rubber-eraser);
+}
+.icon-ruler-and-pen {
+	@include icon(ruler-and-pen);
+}
+.icon-ruler-and-pencil {
+	@include icon(ruler-and-pencil);
+}
+.icon-ruler-and-set-square {
+	@include icon(ruler-and-set-square);
+}
+.icon-sample-color {
+	@include icon(sample-color);
+}
+.icon-scale-squares {
+	@include icon(scale-squares);
+}
+.icon-school-pen {
+	@include icon(school-pen);
+}
+.icon-school-writing-tool {
+	@include icon(school-writing-tool);
+}
+.icon-select-tool {
+	@include icon(select-tool);
+}
+.icon-sharpener {
+	@include icon(sharpener);
+}
+.icon-slice-tool {
+	@include icon(slice-tool);
+}
+.icon-smartphone-tablet-and-television {
+	@include icon(smartphone-tablet-and-television);
+}
+.icon-spatula {
+	@include icon(spatula);
+}
+.icon-spray-can {
+	@include icon(spray-can);
+}
+.icon-square-composition {
+	@include icon(square-composition);
+}
+.icon-square-image {
+	@include icon(square-image);
+}
+.icon-square-pattern {
+	@include icon(square-pattern);
+}
+.icon-square-window {
+	@include icon(square-window);
+}
+.icon-strikethrough-text {
+	@include icon(strikethrough-text);
+}
+.icon-strip-mark {
+	@include icon(strip-mark);
+}
+.icon-surgeon-scalpel {
+	@include icon(surgeon-scalpel);
+}
+.icon-sync-symbol {
+	@include icon(sync-symbol);
+}
+.icon-target-in-page {
+	@include icon(target-in-page);
+}
+.icon-text-font {
+	@include icon(text-font);
+}
+.icon-text-tool-1 {
+	@include icon(text-tool-1);
+}
+.icon-text-tool-2 {
+	@include icon(text-tool-2);
+}
+.icon-text-tool {
+	@include icon(text-tool);
+}
+.icon-three-brushes {
+	@include icon(three-brushes);
+}
+.icon-three-rings {
+	@include icon(three-rings);
+}
+.icon-three-squares {
+	@include icon(three-squares);
+}
+.icon-triangle-and-circle {
+	@include icon(triangle-and-circle);
+}
+.icon-two-paint-brusher {
+	@include icon(two-paint-brusher);
+}
+.icon-unite-squares {
+	@include icon(unite-squares);
+}
+.icon-university-building {
+	@include icon(university-building);
+}
+.icon-user-profile-in-a-square {
+	@include icon(user-profile-in-a-square);
+}
+.icon-vector-software {
+	@include icon(vector-software);
+}
+.icon-vintage-color-palette {
+	@include icon(vintage-color-palette);
+}
+.icon-vintage-reading-glasses {
+	@include icon(vintage-reading-glasses);
+}
+.icon-visible-status {
+	@include icon(visible-status);
+}
+.icon-writing-feather {
+	@include icon(writing-feather);
+}
+.icon-writing-text {
+	@include icon(writing-text);
+}
+.icon-zoom-len {
+	@include icon(zoom-len);
+}
+.icon-zoom-out-magnifier {
+	@include icon(zoom-out-magnifier);
+}
